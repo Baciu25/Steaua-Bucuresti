@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steaua inseamna CSA</title>
+    <link rel="stylesheet" href="./steaua.css" />
+  </head>
+  <body>
+    <header>
+      <h1><i><span id="primul_cuvant">Steaua</span>
+        <span id="al_doilea">inseamna</span>
+        <span id="al_treilea">ASA</span></i>
+        
+      </h1>
+      <img src="./ASA.png" alt="">
+     
+    </header>
+    <main>
+      <div class="container">
+        <h2><i>Cum a inceput totul</i></h2>
+         <a href="">
+           
+       <p><h2><i> ASA București (Asociația Sportivă a Armatei București) a fost
+        înfiinţat la 7 iunie 1947 la iniţiativa mai multor ofiţeri ai Casei
+        regal al României. Înființarea a avut loc în urma unui decret semnat de general
+        <a href="https://ro.wikipedia.org/wiki/Mihail_Lasc%C4%83r" target="_blank"  class="inline-links">Mihail Lascăr</a> înalt comandant al Armatei Regale Române.
+        S-a format ca o societate sportivă cu șapte secții inițiale, inclusiv
+        fotbal, antrenat de <a href="https://ro.wikipedia.org/wiki/Coloman_Braun-Bogdan" target="_blank"  class="inline-links">  Coloman Braun Bogdan</a>. ASA a fost redenumit ca
+        CSCA (Clubul Sportiv Central al Armatei) în 1948 și CCA (Casa Centrală
+        a Armatei) în 1950.[9] În 1949, CSCA a câștigat primul său trofeu,
+        Cupa României, învingând CSU Cluj cu 2–1 în finală. Sub numele de CCA,
+        clubul a reușit să câștige trei titluri la rând în 1951, 1952 și 1953,
+        împreună cu prima sa dublă Campionat-Cupă în 1951. În anii 1950,
+        așa-numita „echipa de aur a CCA” a devenit la nivel național
+        faimoasă.[10] În 1956, echipa națională a României (compusă exclusiv
+        din jucători ai CCA) a jucat cu Iugoslavia la Belgrad și a câștigat cu
+        1-0. În același an, CCA, antrenată de Ilie Savu, a devenit prima
+        echipă românească care a participat la un turneu din Anglia, unde a
+        obținut rezultate remarcabile împotriva celor de la Luton Town,
+        Arsenal, Sheffield Wednesday și Wolverhampton Wanderers.</i></h2></p>
+        
+        <span><img src="./CCA.png" alt=""> </span><span> <img src="./CCA2.png" alt=""></span>
+      </div>
+      <p><i><h2>La sfârșitul anului 1961, CCA și-a schimbat denumirea din nou în CSA Steaua București (Clubul Sportiv al Armatei Steaua). Noul nume al clubului a fost adoptat datorită prezenței unei stele roșii, un simbol al majorității cluburilor armatelor din Europa de Est. A urmat o perioadă săracă de aproape două decenii în care clubul a reușit să obțină doar trei campionate (1967–68, 1975–76, 1977–78). În schimb, echipa a câștigat nouă cupe, fapt pentru care a câștigat porecla de „specialiștii Cupei”. Tot în această perioadă, pe 9 aprilie 1974, terenul Stelei, Stadionul Ghencea, a fost inaugurat cu un meci amical împotriva OFK Belgrad.
+        
+      </h2></i>
+        
+    </p> 
+    
+    <img src="./CSA.jpeg " id="csa" alt="">
+
+      
+    </main>
+    <footer></footer>
+  </body>
+</html>
+--------------------------------------------------------------------------------
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css');  
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+    font-family: sans-serif;
+  
+    
+}
+body{
+    background-color: blue
+    
+    ;
+}
+
+header{
+    text-align: center;
+    padding-top: 40px;
+    background-color: red;
+    viewport-fit: 50%
+    ;
+}
+#primul_cuvant{
+    color: blue;
+}
+#al_doilea{
+    color: rgb(192, 192, 37);
+    
+}
+#al_treilea{
+    color: blue;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+p{
+    color: white;
+    text-align: center;
+   
+}
+
+div{
+    text-align: center;
+}
+
+.inline-links:link {
+    color: black;
+    text-decoration: none;
+  }
+  .inline-links:visited {
+    color:black;
+    transition: 0.2ms;
+  }
+  span{
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+  
